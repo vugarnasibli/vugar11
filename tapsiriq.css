@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#sect1 {
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+
+
+}
+
+#sect1 .contanier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content h1 {
+    font-size: 80px;
+
+
+}
+
+.contanier em {
+    font-size: 28px;
+
+}
+
+.content {
+    width: 650px;
+
+}
+
+.class1 {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1d809f;
+    transition: all 0.3s ease-in-out;
+    margin-top: 50px;
+}
+
+.class1:hover {
+    background-color: #8ee86e;
+    color: #c43333;
+}
+
+.content {
+    text-align: center;
+    width: 600px;
+}
+
+nav {
+    position: fixed;
+    right: 15px;
+    cursor: pointer;
+    top: 15px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #343a409e;
+    padding: 18px;
+
+    color: white;
+}
+
+/* Task 2 */
+
+
+#sect2 {
+    width: 100%;
+    height: 50vh;
+
+}
+
+#sect2 .contanier2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+#sect2 h1 {
+    font-size: 26px;
+    margin-top: 1px;
+}
+
+.btn2 {
+    border-radius: 8px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    color: #e2cccc;
+    background-color: #060707;
+    transition: all 0.3s ease-in-out;
+    /* margin-top: 900px; */
+    margin: 50px;
+    border: #1d809f solid6px;
+
+
+}
+
+.content2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.btn2:hover {
+    background-color: #5b5e59;
+
+}
+
+.content2 .yy {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.content2 a {
+    font-size: 19px;
+    color: #4285c3;
+}
+
+a:hover {
+    color: #7bb5e5;
+}
+
+
+
+/* #sect3 {
+    width: 100%;
+    height: 500px;
+
+    background-color: rgb(82, 166, 197);
+}
+
+
+.tt {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-left: 700px;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: yellow;
+}
+
+
+.mm {
+    font-size: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+} */
+
+.box {
+    display: inline-block;
+    justify-content: space-around;
+    margin: 85px;
+}
+
+#sect4 {
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+
+
+}
+
+#sect4 .contanier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.class4 {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1d809f;
+    transition: all 0.3s ease-in-out;
+    margin-top: 50px;
+}
+
+.class4:hover {
+    background-color: rgba(69, 130, 244, 0.69);
+
+}
+
+
+.div3 {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: violet;
+}
+
+
+#div3 {
+    width: 100%;
+    height: 50vh;
+
+}
+
+#div3 .contanier2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+#div3 h1 {
+    font-size: 26px;
+    margin-top: 1px;
+}
+
+.btn3 {
+    border-radius: 8px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    color: #e2cccc;
+    background-color: #060707;
+    transition: all 0.3s ease-in-out;
+    margin: 50px;
+
+
+}
+
+
+
+.btn2 {
+    border-radius: 8px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    color: #131010;
+    background-color: #feffff;
+    transition: all 0.3s ease-in-out;
+    margin: 50px;
+}
+
+.btn2:hover {
+    background-color: #a6aba3;
+
+}
+
+.btn3:hover {
+    background-color: #7f827d;
+
+}
+
+.contanier5 {
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    background-color: #68aeefe7;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#sect5 .contanier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+/* task3 */
+
+
+.sect4{
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+    background-color: #196d87;
+
+
+}
+
+.sect4 h4{
+    color: rgb(207, 130, 14);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    font-size: 20px;
+
+}
+
+.sect4 p{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.boxer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+
+.item{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 100px;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #1D809f;
+
+
+}
+
+.boxer .pp{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+
+}
+
+.boxer .ppp{
+    color: white;
+    font-size: 8px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+
+
+/* task 5 */
+
+
+#sect9 {
+    width: 100%;
+    padding: 5%;
+
+    .sect9-head {
+        margin-bottom: 50px;
+        text-align: center;
+
+        p {
+            color: #ECB807;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    .sect9-bottom {
+
+        .items {
+            width: 50%;
+            position: relative;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            clip-path: inset(0);
+
+            &:hover {
+                clip-path: inset(30px);
+
+                .overlay {
+                    background-color: #17677fed;
+
+                }
+            }
+
+            .img-box {
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                transition: 0.3s ease-in-out;
+                padding: 50px;
+                display: flex;
+                align-items: flex-end;
+                height: 100%;
+
+                .text-box {
+                    color: #fff;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                    h1 {
+                        font-size: 10px;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        font-weight: lighter;
+                    }
+                }
+            }
+        }
+    }
+}
+.container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#global{
+    height: 300%;
+    width: 150%;
+    margin: auto;
+    text-align: center;        
+}
+
+
+
+.div10 i{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding-top: 10px;
+    background-color:  #1D809f;
+    border-radius: 100px;
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+    margin-right: 20px;
+
+}
+
+
+.div10 i:hover{
+    background-color: #189dc5;
+    transition: 2s;
+}
+
+.div10 p{
+    margin-top: 50px;
+
+}
